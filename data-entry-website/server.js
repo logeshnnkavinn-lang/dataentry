@@ -39,7 +39,7 @@ const studentSchema = new mongoose.Schema({
 });
 
 /* ---------- MODEL ---------- */
-const Student = mongoose.model("studentdetails", studentSchema);
+const Student = mongoose.model("studentsdetails", studentSchema);
 
 /* ---------- ROUTES ---------- */
 
