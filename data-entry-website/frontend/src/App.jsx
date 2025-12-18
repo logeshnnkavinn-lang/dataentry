@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 
 // 👇 INGA UNGA RENDER BACKEND LINK PODUNGA (Last slash '/' vendam)
-const API_URL = "https://your-render-app-name.onrender.com";
+const API_URL = "https://data-entry-7v0g.onrender.com";
 
 function App() {
   const [formData, setFormData] = useState({
