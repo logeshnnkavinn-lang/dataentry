@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="container">
       <div className="card">
-        <h1>✨ Data Entry Entry ✨</h1>
+        <h1>✨ Data Entry ✨</h1>
         <p className="subtitle">Enter student details below</p>
 
         <form onSubmit={handleSubmit}>
