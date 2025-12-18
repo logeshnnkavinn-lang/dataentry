@@ -1,9 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
+const cors = require("cors");
 const app = express();
 
 /* ---------- MIDDLEWARE ---------- */
+app.use(cors()); // Enable CORS for all routes
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
